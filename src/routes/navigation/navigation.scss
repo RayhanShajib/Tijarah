@@ -1,0 +1,29 @@
+.navigation {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  align-items: center;
+
+  .logo-container {
+    font-size: 2rem;
+    background: transparent;
+    background: linear-gradient(135deg, #001aff 0%, #eb00ff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+  }
+  .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-link {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}
