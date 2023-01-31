@@ -25,6 +25,7 @@
     &.google-sign-in {
       background-color: #4285f4;
       color: white;
+      cursor: pointer;
   
       &:hover {
         background-color: #357ae8;
@@ -33,14 +34,15 @@
     }
   
     &.inverted {
-      background-color: white;
-      color: black;
-      border: 1px solid black;
+      background-color: #f6416c;
+      color: white;
+      cursor: pointer;
   
       &:hover {
         background-color: black;
         color: white;
         border: none;
+        transition: 0.4s;
       }
     }
   }

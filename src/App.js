@@ -15,7 +15,8 @@ const App = () => {
     dispatch(checkUserSession())
   }, [dispatch]);
   return (
-    <div className="wrapper">
+   <div className="wrapper">
+     <div className="container">
       <Routes>
         <Route path="/" element={<Navigation />}>
           <Route index element={<Home />} />
@@ -25,6 +26,7 @@ const App = () => {
         </Route>
       </Routes>
     </div>
+   </div>
   );
 };
 

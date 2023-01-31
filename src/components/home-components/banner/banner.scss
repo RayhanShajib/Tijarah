@@ -1,0 +1,46 @@
+
+.banner-wrapper{
+    padding: 60px 0px;
+    background-color: rgb(205 200 200 / 21%);
+}
+.sup-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: 200;
+}
+.title {
+    font-size: 60px;
+    line-height: 30px;
+    color: #333333;
+    position: relative;
+}
+.description {
+    font-size: 18px;
+    color: #6e6e6e;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title:before {
+    content: "";
+    width: 127px;
+    height: 2.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f63440;
+    margin: 0 auto;
+    top: 60px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.title-section{
+    position: relative;
+}

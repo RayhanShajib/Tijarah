@@ -17,12 +17,12 @@ a {
   text-decoration: none;
   color: black;
 }
-.wrapper {
+.container {
   max-width: 1200px;
   margin: auto;
 }
 @media screen and (max-width: 1200px) {
-  .wrapper {
+  .container {
     width: 90%;
   }
 }

@@ -14,9 +14,8 @@ const DirectoryItem = ({ category }) => {
           backgroundImage: `url(${imageUrl})`,
         }}
       />
-      <div className="directory-body-container">
-        <h2>{title}</h2>
-        <p>Shop Now</p>
+      <div className="elm-btn">
+        <h2 className="themesflat-button">{title}</h2>
       </div>
     </div>
   );
